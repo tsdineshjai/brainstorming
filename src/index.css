@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: grid;
+  place-items: initial;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
