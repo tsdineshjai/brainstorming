@@ -1,0 +1,18 @@
+.modal {
+  height: fit-content;
+  min-width: 200px;
+  min-height: 150px;
+  position: absolute;
+  top: 100px;
+  background-color: rgb(193, 193, 26);
+  padding: 1rem;
+  animation: modalIncoming 1s ease-in-out;
+}
+
+
+
+@keyframes modalIncoming {
+  from {
+    transform: translateY(-100px);
+  }
+}
